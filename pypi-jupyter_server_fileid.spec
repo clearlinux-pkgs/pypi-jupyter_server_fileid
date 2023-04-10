@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-jupyter_server_fileid
-Version  : 0.8.0
-Release  : 2
-URL      : https://files.pythonhosted.org/packages/15/d3/fc6511f561f38c8d589e0243790bcd15fc66d21e1f4dd861c27a0788b483/jupyter_server_fileid-0.8.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/15/d3/fc6511f561f38c8d589e0243790bcd15fc66d21e1f4dd861c27a0788b483/jupyter_server_fileid-0.8.0.tar.gz
+Version  : 0.9.0
+Release  : 3
+URL      : https://files.pythonhosted.org/packages/a2/c9/ab2b6bd9a5508cb2d4e126ae8e84c110f5fbeb2f08b8f78952c2183ef57e/jupyter_server_fileid-0.9.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a2/c9/ab2b6bd9a5508cb2d4e126ae8e84c110f5fbeb2f08b8f78952c2183ef57e/jupyter_server_fileid-0.9.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -64,10 +64,10 @@ python3 components for the pypi-jupyter_server_fileid package.
 
 
 %prep
-%setup -q -n jupyter_server_fileid-0.8.0
-cd %{_builddir}/jupyter_server_fileid-0.8.0
+%setup -q -n jupyter_server_fileid-0.9.0
+cd %{_builddir}/jupyter_server_fileid-0.9.0
 pushd ..
-cp -a jupyter_server_fileid-0.8.0 buildavx2
+cp -a jupyter_server_fileid-0.9.0 buildavx2
 popd
 
 %build
@@ -75,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680278506
+export SOURCE_DATE_EPOCH=1681144504
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
