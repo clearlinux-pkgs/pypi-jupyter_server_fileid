@@ -7,7 +7,7 @@
 #
 Name     : pypi-jupyter_server_fileid
 Version  : 0.9.1
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/52/e1/c149e0baea917b315253c52e7417de31755d15ead2defe6975af128f4036/jupyter_server_fileid-0.9.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/52/e1/c149e0baea917b315253c52e7417de31755d15ead2defe6975af128f4036/jupyter_server_fileid-0.9.1.tar.gz
 Summary  : Jupyter Server extension providing an implementation of the File ID service.
